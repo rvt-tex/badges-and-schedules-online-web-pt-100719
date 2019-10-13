@@ -14,7 +14,7 @@ def batch_badge_creator(attendees)
   my_badge_messages
 end 
 
-
+#----------------------------------------------------------
 #def assign_rooms(speakers, index)
   #speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   #my_rooms = []
@@ -26,13 +26,13 @@ end
 
 
 
-def assign_rooms(speakers)
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  my_rooms = []
-speakers.each_with_index do |speakers, idx|
-    puts "Hello, #{speakers}! You'll be assigned to room #{idx}!"
-end
-end
+#def assign_rooms(speakers)
+  #speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  #my_rooms = []
+#speakers.each_with_index do |speakers, idx|
+    #puts "Hello, #{speakers}! You'll be assigned to room #{idx}!"
+#end
+#end
 
 #def printer(badges, rooms)
   #batch_badge_creator = my_badge_messages
@@ -40,6 +40,8 @@ end
   #file_print = []
   #puts batch_badge_creator + assign_rooms
 #end 
+#----------------------------------------------------------
+
 
 
 
